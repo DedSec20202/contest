@@ -1,0 +1,21 @@
+@import "reset";
+@import "header";
+
+body {
+    background-color: #7678ED;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    font-family: Oswald;
+    color: white;
+}
+
+@import "content";
+@import "footer";
+@import "regestration";
+
+.none {
+    display: none;
+}

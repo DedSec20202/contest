@@ -1,0 +1,36 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .swiper {
+        .swiper-wrapper {
+            // width: 60%;
+            align-items: center;
+            .swiper-slide {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                img {
+                    width: 58%;
+                    object-fit: cover;
+                    border-radius: 15px;
+                    border: solid #3D348B;
+                }
+            }
+        }
+    }
+    .swiper-button-next, .swiper-button-prev{
+        // position: absolute;
+        color: #3D348B;
+    }
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            // color: white;
+            --swiper-theme-color: #3D348B;
+            border: solid 0.5px white;
+        }
+    }
+}
